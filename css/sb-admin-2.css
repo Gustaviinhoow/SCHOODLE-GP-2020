@@ -3097,6 +3097,7 @@ input[type="button"].btn-block {
 
 .dropdown-header {
   display: block;
+  margin: initial;
   padding: 0.5rem 1.5rem;
   margin-bottom: 0;
   font-size: 0.875rem;
@@ -5222,7 +5223,11 @@ a.badge-dark:focus, a.badge-dark.focus {
     border-bottom-left-radius: 0;
   }
 }
-
+car-ajust {
+  border-right: 20px;
+  border-left: 10px;
+  border-radius: 20px;
+}
 .list-group-flush .list-group-item {
   border-right: 0;
   border-left: 0;
